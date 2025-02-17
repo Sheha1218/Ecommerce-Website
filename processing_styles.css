@@ -1,0 +1,100 @@
+body {
+    background-color: #343a40;
+    font-family: Arial, sans-serif;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.video-container {
+    max-width: 100%;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #495057;
+    padding: 1rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 2rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #343a40;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+    min-height: 800px;
+}
+
+.table{
+    color: #fff;
+}
+
+.sidebar a.btn {
+    display: block;
+    width: 100%;
+    margin: 0.8rem 0;
+    text-align: center;
+    border-radius: 0.8cm;
+}
+
+.sidebar a.btn-product {
+    background-color: #3473f1;
+    color: #fff;
+}
+
+.sidebar a.btn-feedback {
+    background-color: #928d07;
+    color: #fff;
+}
+
+.sidebar a.btn-order {
+    background-color: #0bd1efe0;
+    color: #fff;
+}
+.sidebar a.btn-home{
+    background-color: #ef061ae0;
+    color: #fff;
+}
+
+.sidebar a.btn:hover {
+    opacity: 0.8;
+}
+
+.animation {
+    text-align: center;
+    padding: 2rem;
+}
+
+.animation-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+    animation: bounce 2s infinite;
+}
+
